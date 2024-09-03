@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima');
+
+.learn-container{
+    min-height: 80lvh;
+    padding: 40px;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.sugg-courses{
+    display: none;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.sugg-head{
+    font-family: Imprima;
+    font-size: 300%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sugg-crs-card{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.crs-ill{
+    width: 15vh;
+    height: 15vh;
+    margin: auto;
+    display: block;
+}
+
+.sug-crs-head{
+    padding: 10px;
+    font-family: Imprima;
+    font-size: 150%;
+    color:  #FF9900;
+}
+
+.start-button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FF9900;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Imprima;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.start-button:hover{
+    box-shadow: 1px 1px 5px grey;
+    transition: 0.5s;
+}
+
+.all-courses{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.all-head{
+    font-family: Imprima;
+    font-size: 300%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.all-crs-card{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.crs-ill{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+.all-crs-head{
+    padding: 10px;
+    font-family: Imprima;
+    font-size: 150%;
+    color:  #FF9900;
+}
+
+.crs-seq{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}

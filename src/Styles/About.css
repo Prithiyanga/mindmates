@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima');
+
+.about-container{
+    min-height: 90lvh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-title{
+    font-family: Imprima;
+    font-size: 500%;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 40px;
+}
+
+.about-section{
+    width: 40vw;
+}
+
+.abt-illustration{
+    width: 40vw;
+}
+
+.about-body{
+    font-family: Imprima;
+    font-size: 130%;
+    text-align: justify;
+}
+
+/* Past Present Future */
+
+.ppf-container{
+    min-height: 90lvh;
+    padding-top: 10vh;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.ppf-box{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ppf-section{
+    width: 30%;
+    padding: 15px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+
+.ppf-ill{
+    width: 70%;
+    display: block;
+    margin: auto;
+    filter: drop-shadow(5px 5px 6px rgb(0, 0, 0, 0.5));
+}
+
+.ppf-content{
+    font-family: Imprima;
+    font-size: 130%;
+    display: none;
+    color: #FF9900;
+    text-align: center;
+}
+
+#present-content{
+    font-family: Imprima;
+    font-size: 130%;
+    display: flex;
+}
+
+#present-ill{
+    display: none;
+}
+
+.ppf-slider{
+    position: absolute;
+    height: 60vh;
+    padding: 15px;
+    background-color: #424242;
+    width: 25vw;
+    border-radius: 0px;
+    transform: translateX(26vw);
+}
+
+.ppf-head{
+    font-family: Imprima;
+    font-size: 120%;
+    border:solid 2px #FF9900;
+    background-color: #FF9900;
+    padding: 10px;
+    border-radius: 10px;
+    width: 10vw;
+    cursor: pointer;
+}
+
+#present-head{
+    background-color: transparent;
+    border:solid 2px #FF9900;
+    color: white;
+}
+
+/* Target Audience */
+
+.cust-container{
+    min-height: 90lvh;
+    max-height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cust-segs{
+    width: 50vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 50px;
+}
+
+.cust-rotate{
+    position: absolute;
+    width: 40vw;
+    left: -5%;
+    transform: rotate(0deg);
+    transition: 0.5s;
+    filter: drop-shadow(2px 2px 5px grey);
+}
+
+.cust-bg{
+    position: absolute;
+    width: 25vw;
+    left: 1%;
+}
+
+.cust-head{
+    font-size: 130%;
+    color: #FF9900;
+    font-family: Imprima
+}
+
+.cust-body{
+    font-family: Imprima;
+    font-size: 110%;
+    text-align: justify;
+    display: none;
+}
+
+.cust{
+    cursor: default;
+}
+
+.cust:hover .cust-body{
+    display: flex;
+}
+
+.cust1:hover ~ .cust-rotate{
+    transform: rotateZ(-20deg);
+    transition: 0.5s;
+}
+
+.cust2:hover ~ .cust-rotate{
+    transform: rotateZ(-10deg);
+    transition: 0.5s;
+}
+
+.cust3:hover ~ .cust-rotate{
+    transform: rotateZ(10deg);
+    transition: 0.5s;
+}
+
+.cust4:hover ~ .cust-rotate{
+    transform: rotateZ(20deg);
+    transition: 0.5s;
+}
+
+/* Feature */
+
+.ft-container{
+    min-height: 90lvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-title{
+    font-family: Imprima;
+    font-size: 500%;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ft-sections{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.ft-sec1{
+    width: 40vw;
+    height: 50vh;
+    border: solid 1px black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ft-sec2{
+    width: 40vw;
+    height: 50vh;
+    background-color: #424242;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.ft-head{
+    font-family: Imprima;
+    font-size: 130%;
+    color: #FF9900;
+    text-align: center;
+}
+
+.ft-body{
+    width: 70%;
+    margin: auto;
+    font-family: Imprima;
+    font-size: 110%;
+    text-align: center;
+}
+
+.ft-sec1:hover , .ft-sec2:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}

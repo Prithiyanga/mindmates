@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois');
+@import url('https://fonts.googleapis.com/css2?family=Imprima');
+
+.open-container{
+    min-height: 100lvh;
+    overflow: hidden;
+    max-width: 100lvw;
+    max-height: 100lvw;
+    background-image: url("../Media/homeBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15vh;
+    justify-content: center;
+    padding-left: 5vw;
+}
+
+.open-head{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    margin-top: 20vh;
+}
+
+.open-title{
+    font-family: Jacques Francois;
+    font-size: 600%;
+    background-image: linear-gradient(to bottom, #DF0D82, #0085B4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.open-caption{
+    font-family: Jacques Francois;
+    font-size: 200%;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.get-started{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FF9900;
+    border: solid 1.5px #FF9900;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: Imprima;
+    font-size: 120%;
+}
+
+.get-started:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #FF9900;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*  LEARNING OUTCOMES    */
+
+.lo-container{
+    min-height: 90lvh;
+    max-width: 100lvw;
+    max-height: 100lvh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+}
+
+.lo-title{
+    font-family: Imprima;
+    font-size: 600%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.lo-robo{
+    height: 25vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    filter: drop-shadow(0px 80px 20px rgba(0, 0, 0, 0.2));
+}
+
+.lo-contents{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lo-content-section{
+    width: 360px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+}
+
+.lo-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+    padding: 10px;
+    font-family: Imprima;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.lo-content:hover{
+    box-shadow: 2px 2px 5px grey;
+    transition: 0.5s;
+    cursor:default;
+}
+
+.lo-content-title{
+    font-size: 120%;
+    font-weight: 500;
+    color: #FF9900;
+}
+
+.lo-content-body{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1080px) {
+    .mid-lo-section{
+        margin-top: 10%;
+    }
+}
+
+/*  SETTING THE STANDARD    */
+
+.std-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10vh;
+    min-height: 100lvh;
+    max-height: 100lvh;
+    max-width: 100lvw;
+}
+
+.std-element-left{
+    position: absolute;
+    left: 0;
+    margin-top: 30%;
+    z-index: -1;
+}
+
+.std-element-right{
+    position: absolute;
+    right: 0;
+    margin-top: -30%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.std-abstimg-left{
+    width: 25vw;
+    margin-left: -20%;
+}
+
+.std-abstimg-right{
+    width: 25vw;
+    margin-left: 30%;
+}
+
+.std-title{
+    font-family: Imprima;
+    font-size: 350%;
+    color: rgb(0, 0, 0,0.5);
+    position: absolute;
+    right: 20px;
+}
+
+.std-section{
+    display: flex;
+    column-gap: 10vw;
+    width: 90vw;
+    margin-left: auto;
+}
+
+.std-box{
+    width: 30vw;
+    background-color: #323232;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.std-heading{
+    color: #FF9900;
+    font-family: Imprima;
+    font-size: 130%;
+    text-align: center;
+}
+
+.std-body{
+    color: white;
+    font-family: Imprima;
+    text-align: center;
+    font-size: 110%;
+}
+
+@media screen and (min-width: 900px) {
+    .mid-std-section{
+        margin-left: 0px;
+    }
+}
+
+/*  GETTING STARTED    */
+
+.gs-container{
+    min-height: 80lvh;
+    max-height: 100lvh;
+    max-width: 100lvw;
+    padding-top: 5vh;
+    background-image: linear-gradient(to top right, #ff99001b 50%, white 50%, white 100%);
+}
+
+.gs-title{
+    font-family: Imprima;
+    font-size: 500%;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    padding-left: 5vw;
+}
+
+.gs-contents{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.gs-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 20px;
+}
+
+.gs-step{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    font-family: Imprima;
+    font-size: 120%;
+}
+
+.gs-arrow{
+    width: 6vw;
+}
+
+.gs-abstract{
+    height: 70vh;
+    margin-top: -10%;
+}
