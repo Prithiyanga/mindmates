@@ -1,0 +1,363 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Imprima');
+
+body{
+    font-family: Imprima;
+
+
+}
+
+.help-container{
+    padding-top: 20vh;
+   
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Media/helpBg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.help-header{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+.button-section{
+display:flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+#title{
+    font-weight: 200;
+    
+}
+.help-button{
+    width: 150px;
+    height: 25px;
+    background-color: orange;
+    font-family: Imprima;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3);
+
+}
+.logo-div{
+    top: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20vh;
+    height: 30vh;
+
+}
+.header-logo-help-page{
+    width: 15vh;
+    height: 15vh;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.contacts{
+    display: flex;
+    gap:50px;
+    width: fit-content;
+   
+}
+.cinputs{
+    display: flex;
+    flex-direction: column;
+     gap: 10px;  
+margin-top: 125px;
+}
+.cip{
+    background-color: #844F00;
+    padding: 10px;
+    border-radius: 10px;
+    width:50vh ;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3);
+
+    
+}
+.cip:focus{
+    outline: none;
+}
+.contacts-textarea{
+    background-color: #844F00;
+
+    width:30vh ;
+    height:15vh ;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3);    
+}
+.contacts-textarea:focus{
+    outline: none;
+}
+.more-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: end;
+    margin-top: 125px;
+}
+#message-btn{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#bb812bb9;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+
+}
+#ql{
+    text-decoration: underline;
+}
+
+.contact-title{
+    text-decoration: underline;
+}
+.content{
+    margin: 10px;
+}
+.icon{
+    margin-top: 8px;
+}
+.quick-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;    
+}
+.links{
+ height: 130px;
+ margin-bottom: 5px;
+} */
+ /* Default styles (for landscape and larger screens) */
+ @import url('https://fonts.googleapis.com/css2?family=Imprima');
+
+ body {
+    font-family: Imprima;
+}
+
+.help-container {
+    padding-top: 20vh;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Media/helpBg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.help-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#title {
+    font-weight: 200;
+}
+
+.help-button {
+    width: 150px;
+    height: 25px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20vh;
+    height: 30vh;
+}
+
+.header-logo-help-page {
+    width: 15vh;
+    height: 15vh;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.header-option1{
+    text-decoration: none;
+    color: black;
+}
+.header-option1:hover{
+    color: rgba(20, 18, 18, 0.547);
+}
+.contacts {
+    display: flex;
+    gap: 50px;
+}
+
+.cinputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 125px;
+}
+
+.cip {
+    background-color: #844F00;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50vh;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.contacts-textarea {
+    background-color: #844F00;
+    width: 30vh;
+    height: 15vh;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.more-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: end;
+    margin-top: 125px;
+}
+
+#message-btn {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #bb812b56 ;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+#message-btn:hover{
+    background-color:  #bb812bb9 ;
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    gap: 10px;
+}
+
+.links {
+    height: 130px;
+    margin-bottom: 5px;
+}
+.cip:focus{
+    outline: none;
+}
+.contacts-textarea:focus{
+    outline: none;
+}
+/* Responsive changes only for smaller screens (portrait, mobile) */
+@media (max-width: 768px) {
+    .help-container {
+        padding-top: 10vh;
+        height: auto; /* Adjust to fit smaller screens */
+        background-size: cover; /* Ensure background fits the smaller view */
+    }
+
+    .help-header {
+        height: auto; /* Allow dynamic height */
+    }
+
+    .button-section {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+        gap: 10px;
+    }
+
+    .help-button {
+        width: 100%; /* Full width for small screens */
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .logo-div {
+        width: 15vh;
+        height: 20vh;
+        display: flex;
+       text-align: center;
+    }
+
+    .header-logo-help-page {
+        width: 10vh;
+        height: 10vh;
+        margin-top: 150px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cip {
+        width: 80vw;
+    }
+
+    .contacts-textarea {
+        width: 80vw;
+        height: 20vh;
+    }
+
+    .quick-links {
+        margin-bottom: 20px;
+    }
+
+    .links {
+        height: auto;
+        margin-bottom: 15px;
+    }
+   
+}
